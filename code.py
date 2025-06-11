@@ -166,7 +166,7 @@ def plot_posteriors(trace, data):
 
 import matplotlib.pyplot as plt
 
-
+#used chatgpt to help refine and correct some errors in the draw delta plots code
 
 def draw_delta_plots(data, pnum):
     print(f"\n[INFO] Drawing delta plots for participant {pnum}...")
