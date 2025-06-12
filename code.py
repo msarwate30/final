@@ -230,7 +230,7 @@ def draw_delta_plots(data, pnum):
 
 
 def main():
-    file_path = 'data1.csv'
+    file_path = 'final/data1.csv'
 
     # Step 1: Read and prepare data for SDT analysis
     sdt_data = read_data(file_path, prepare_for='sdt', display=True)
